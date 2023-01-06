@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <title>Ficha de Cadastro de Funcionario</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>NOME DA EMPRESA</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="cadastro.html">CADASTROS</a>
+                    </li>
+                    <li>
+                        <a href="#">RH</a>
+                    </li>
+                    <li>
+                        <a href="#">CONTATO</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <table (cellspacing ="0" cellspacing="3")>
+            <caption><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-boxes" viewBox="0 0 16 16">
+                <path d="M7.752.066a.5.5 0 0 1 .496 0l3.75 2.143a.5.5 0 0 1 .252.434v3.995l3.498 2A.5.5 0 0 1 16 9.07v4.286a.5.5 0 0 1-.252.434l-3.75 2.143a.5.5 0 0 1-.496 0l-3.502-2-3.502 2.001a.5.5 0 0 1-.496 0l-3.75-2.143A.5.5 0 0 1 0 13.357V9.071a.5.5 0 0 1 .252-.434L3.75 6.638V2.643a.5.5 0 0 1 .252-.434L7.752.066ZM4.25 7.504 1.508 9.071l2.742 1.567 2.742-1.567L4.25 7.504ZM7.5 9.933l-2.75 1.571v3.134l2.75-1.571V9.933Zm1 3.134 2.75 1.571v-3.134L8.5 9.933v3.134Zm.508-3.996 2.742 1.567 2.742-1.567-2.742-1.567-2.742 1.567Zm2.242-2.433V3.504L8.5 5.076V8.21l2.75-1.572ZM7.5 8.21V5.076L4.75 3.504v3.134L7.5 8.21ZM5.258 2.643 8 4.21l2.742-1.567L8 1.076 5.258 2.643ZM15 9.933l-2.75 1.571v3.134L15 13.067V9.933ZM3.75 14.638v-3.134L1 9.933v3.134l2.75 1.571Z"/>
+            </svg> <h2>FICHA DE CADASTRO DE FUNCIONARIO</h2></caption>
+            <tbody>
+                <form id="form-cadastro">
+                <tr>
+                    <td><label>Nome:</label>
+                        <input type="nome" id="nome" name="nome" required/></td>
+
+                    <td><label>Genero:</label>
+                        <select id="genero" name="genero" required>
+                        <option></option>
+                        <option>Masculino</option>
+                        <option>Feminino</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><label>CPF:</label>
+                        <input type="CPF" id="cpf" name="cpf" required/></td>
+
+                    <td><label>RG:</label>
+                        <input type="RG" id="rg" name="rg" required/></td>
+
+                    <td><label>ESTADO CIVIL:</label>
+                        <select id="ec" name="ec" required>
+                            <option></option>
+                            <option>CASADO</option>
+                            <option>SOLTEIRO</option>
+                            <option>DIVORCIADO</option>
+                            <option>VIÚVO</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td><label>Cônjuge:</label>
+                        <input type="conjuge" id="conjuge" name="conjuge" required/></td>
+
+                    <td><label>CPF do Conjuge:</label>
+                        <input type="CPF-conjuge" id="cpf2" name="cpf2" required/></td>
+                </tr>
+                <tr>
+                    <td><label>Tel do Cônjuge:</label>
+                        <input type="tel-do-conjuge" id="tel-conjuge" name="tel-conjuge" required/></td>
+
+                    <td><label>GRAU de INSTRUÇÃO:</label>
+                        <select id="instrucao" name="instrucao" required>
+                            <option></option>
+                            <option>Ensino Médio Completo</option>
+                            <option>Ensino Superior Cursando</option>
+                            <option>Ensino Superio Completo</option>
+                        </select></td>
+
+                    <td><label>FORMAÇÃO:</label>
+                        <input type="formacao" id="formacao" name="formacao" required/></td>
+                </tr>
+                <tr>
+                    <td><label>NOME do PAI:</label>
+                        <input type="nome-pai" id="nome-pai" name="nome-pai" required/></td>
+                </tr>
+                <tr>
+                    <td><label>NOME do MÃE:</label>
+                        <input type="nome-mae" id="nome-mae" name="nome-mae" required/></td>
+                </tr>
+                <tr>
+                    <td><label>Telefone:</label>
+                        <input type="tel" id="tel" name="tel" required/></td>
+
+                    <td><label>Celular 1:</label>
+                        <input type="cel1" id="cel1" name="cel1" required/></td>
+
+                    <td><label>Celular 2:</label>
+                        <input type="cel2" id="cel2" name="cel2" required/></td>
+                </tr>
+                <tr>
+                    <td><label>ENDEREÇO:</label>
+                        <input type="address" id="address" name="address" required/></td>
+                </tr>
+                <tr>
+                    <td><label>MUNICIPIO:</label>
+                        <input type="municipio" id="municipio" name="municipio" required/></td>
+
+                    <td><label>ESTADO:</label>
+                        <select id="estado" name="estado" required>
+                            <option></option>
+                            <option>RJ</option>
+                            <option>SP</option>
+                            <option>TO</option>
+                            <option>AC</option>
+                        </select>
+                        <td><label>CEP:</label>
+                            <input type="correio-postal" id="cep" name="cep" required/></td>
+                </tr>
+                <td colspan="3"><button type="submit" id="btn1">Cadastrar</button><button type="reset" id="btn2">Limpar</button><button onclick="window.location.href = 'cadastro.html'" id="btn3">Cadastro</button>
+                <tr>
+            </form>
+            </tbody>
+        </table>
+        <footer>
+            <p>
+                2022 &copy; rodapé da página - Todos os Direitos Reservados
+            </p>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/maiin.js"></script>
+</body>
+</html>

@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+header, footer{
+    padding: 8px 0;
+    background-color: blueviolet;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header{
+    border-top: 2px solid #000;
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+}
+
+footer{
+    border-bottom: 2px solid #000;
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+}
+
+header h1{
+    margin-left: 10px;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 16px;
+    font-size: 12px;
+}
+
+header nav li a{
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+.container table{
+    background-color: rgb(138, 43, 226, 0.2);;
+    width: 100%;
+    border: 2px solid #000;
+}
+
+.container table caption{
+    background-color: rgb(138, 43, 226, 0.2);
+    border-top: 2px solid #000;
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+    padding: 12px;
+}
+
+tbody td{
+    padding: 3px 0;
+    font-size: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+}
+
+tbody td label{
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+tbody input{
+    background-color: rgb(138, 43, 226, 0.1);
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+tbody select{
+    background-color: rgb(138, 43, 226, 0.1);
+    margin-left: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+button{
+    font-size: 15px;
+    padding-left: 8px;
+    padding-right: 8px;
+    display: inline;
+    align-items: center;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#btn1{
+    margin-left: 510px;
+    background-color: rgb(138, 43, 226, 0.5);
+}
+
+#btn2{
+    background-color: rgb(138, 43, 226, 0.1);
+}
+
+#btn3{
+    background-color: rgb(138, 43, 226, 0.5);
+}
+
+footer p{
+    text-align: center;
+    margin-left: 440px;
+}
+
+.agenda table{
+    width: 100%;
+}
+
+.agenda table th{
+    border: 1px solid #000;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color:  rgb(138, 43, 266, 0.5);
+}
+
+.agenda table td{
+    padding: 10px 0;
+    text-align: center;
+    font-size: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    color: #000;
+    font-weight: bold;
+}
+
+.agenda footer p{
+    text-align: center;
+    margin-left: 800px;
+}
+
+.agenda header li svg{
+    cursor: pointer;
+    align-items: center;
+}
